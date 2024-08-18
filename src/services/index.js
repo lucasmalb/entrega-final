@@ -7,9 +7,9 @@ import TicketsRepository from "./ticketService.js";
 import ResetPasswordRepository from "./resetPasswordService.js";
 import MessagesRepository from "./messageService.js";
 
-export const cartService = new CartsRepository(new carts());
-export const productService = new ProductsRepository(new products());
-export const userService = new UsersRepository(new users());
-export const ticketService = new TicketsRepository(new tickets());
-export const resetPasswordService = new ResetPasswordRepository(new resetPasswordCodes());
-export const messageService = new MessagesRepository(new messages());
+export const cartService = new CartsRepository(carts);
+export const productService = new ProductsRepository(products);
+export const userService = new UsersRepository(users);
+export const ticketService = new TicketsRepository(tickets);
+export const resetPasswordService = new ResetPasswordRepository(resetPasswordCodes);
+export const messageService = new MessagesRepository(messages);
